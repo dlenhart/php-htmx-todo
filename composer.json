@@ -1,0 +1,21 @@
+{
+    "name": "dlenhart/htmx-todo",
+    "description": "A Todo App",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Drew D. Lenhart"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/database": "^11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

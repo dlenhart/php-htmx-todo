@@ -1,0 +1,17 @@
+# php-htmx-todos
+
+This was an attempt at creating a todo list while learning HTMX but morphed into rolling a minimal PHP framework. The UI is not completely finished,
+I was ultimately going for a (load more) button versus paginated pages, but that didn't work out quite right, among other things.
+
+From what I understand, HTMX cannot just call an API, it expects formatted HTML to return to the frontend.  I think to make this project fully finished, I would
+need some kind of middleware that grabs the API response and transforms it to HTML, ( or alternatively ) I could update the internal API routes to handle this.
+
+## Installation
+*touch data/db.sqlite*
+*composer install*
+
+## Run migrations
+http://localhost:8000/migrate
+
+## Run app
+php -S localhost:8000 -t public
